@@ -1,7 +1,7 @@
 # Inventory Optimization for Retail Chain
 
 ## Overview
-This project analyzes historical sales data for a multi‑store retail chain and builds a time‑series forecast to support inventory optimization decisions. The notebook covers data cleaning, exploratory analysis, seasonality diagnostics, and SARIMA forecasting.
+This project analyzes historical sales data for a multi‑store retail chain and builds a time‑series forecast to support inventory optimization decisions. The notebook covers data cleaning, exploratory analysis, seasonality diagnostics, and SARIMA, XGBoost forecasting.
 
 ## Project Structure
 - data/demand-forecasting-kernels-only/
@@ -34,6 +34,4 @@ Data fields:
 ## Outputs
 - EDA charts: sales trends, seasonality, store/item comparisons.
 - SARIMA model evaluation metrics and forecast plots.
-
-## Notes
-- The model is trained on monthly aggregated sales. For store/item‑level forecasting, extend the notebook to model each series separately.
+- XGBoost model for predicting daily sales trends.
